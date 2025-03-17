@@ -1,0 +1,10 @@
+! CONFIG MIGRAPG
+HOST="localhost"
+PORT="5432"
+USER="postgres"
+PASSWORD="caracas"
+DB="spartanmanager_old"
+DIR="C:\Program Files\PostgreSQL\15"
+***
+Nota: Si requiere modificar los valores, asegurase de mantener la sintaxis (cada valor encerrado en comillas dobles, y sin alterar el resto del archivo)
+***

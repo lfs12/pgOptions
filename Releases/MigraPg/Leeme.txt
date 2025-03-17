@@ -1,0 +1,14 @@
+ ------_----------_----------
+------_ MIGRAPG _----------
+DATABASE POSTGRESQL MIGRATION
+VERSION: 0.6 Spartan Techs
+
+Los directorios:
+config: Configuacion de la conexion con la base de datos
+db_updated: Donde guardas las BD actualizadas.
+respaldos: Se guarda automaticamente una copia de seguridad de la DB desactualizada.
+
+Instrucciones:
+1. Ejecuta "MigraPg.exe" o "MigraPg_v0.6.bat"
+2. Selecciona el archivo de la base datos actualizada, ingresando el numero correspondiente.
+
