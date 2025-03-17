@@ -62,6 +62,18 @@ set "usuario=postgres"
 set "POSTGRES_HOME=C:\Program Files\PostgreSQL\15"
 set "PGPASSWORD=caracas"
 
+REM Crear carpeta "db_updates" si no existe
+if not exist "db_updates" (
+    mkdir "db_updates"
+    echo Carpeta "db_updates" creada.
+)
+
+REM Crear carpeta "db_backups" si no existe
+if not exist "db_backups" (
+    mkdir "db_backups"
+    echo Carpeta "db_backups" creada.
+)
+
 echo ------_----------_----------
 echo ------_ pgOptions _---------- 
 echo DATABASE POSTGRESQL MIGRATION  
