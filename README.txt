@@ -1,4 +1,12 @@
+# pgOptions
+ACTUALIZADOR DE BD POSTGRES
+********IMPORTANTE! 
+ASEGURARSE DE TENER EM LA RAIZ LAS CARPETAS "db_updates" y "db_backups"
+
+
+
 OPERACIONES EN BASE DE DATOS PPOSTGRESQL V 13+
+
 
 *****PgOption Versión 1.0******
 
